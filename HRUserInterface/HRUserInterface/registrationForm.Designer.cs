@@ -61,9 +61,19 @@
             this.browseImageBtn = new System.Windows.Forms.Button();
             this.submitTxt = new System.Windows.Forms.Button();
             this.cancelTxt = new System.Windows.Forms.Button();
-            this.upload = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.errNameLabel = new System.Windows.Forms.Label();
+            this.errMNameLabel = new System.Windows.Forms.Label();
+            this.errLNameLabel = new System.Windows.Forms.Label();
+            this.errPrefixLabel = new System.Windows.Forms.Label();
+            this.errGenderLabel = new System.Windows.Forms.Label();
+            this.errEmailLabel = new System.Windows.Forms.Label();
+            this.errDestinationLabel = new System.Windows.Forms.Label();
+            this.errDescriptionLabel = new System.Windows.Forms.Label();
+            this.uploadBtn = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // nameLabel
@@ -162,6 +172,8 @@
             this.nameTxtBox.Name = "nameTxtBox";
             this.nameTxtBox.Size = new System.Drawing.Size(100, 20);
             this.nameTxtBox.TabIndex = 11;
+            this.nameTxtBox.TextChanged += new System.EventHandler(this.nameTxtBox_TextChanged);
+            this.nameTxtBox.Validating += new System.ComponentModel.CancelEventHandler(this.nameTxtBox_Validating);
             // 
             // middleNameTxtBox
             // 
@@ -169,6 +181,7 @@
             this.middleNameTxtBox.Name = "middleNameTxtBox";
             this.middleNameTxtBox.Size = new System.Drawing.Size(100, 20);
             this.middleNameTxtBox.TabIndex = 12;
+            this.middleNameTxtBox.Validating += new System.ComponentModel.CancelEventHandler(this.middleNameTxtBox_Validating);
             // 
             // lastNameTxtBox
             // 
@@ -176,11 +189,13 @@
             this.lastNameTxtBox.Name = "lastNameTxtBox";
             this.lastNameTxtBox.Size = new System.Drawing.Size(100, 20);
             this.lastNameTxtBox.TabIndex = 13;
+            this.lastNameTxtBox.Validating += new System.ComponentModel.CancelEventHandler(this.lastNameTxtBox_Validating);
             // 
             // prefixComboBox
             // 
             this.prefixComboBox.FormattingEnabled = true;
             this.prefixComboBox.Items.AddRange(new object[] {
+            "select",
             "Mr.",
             "Mrs.",
             "Miss."});
@@ -188,12 +203,12 @@
             this.prefixComboBox.Name = "prefixComboBox";
             this.prefixComboBox.Size = new System.Drawing.Size(89, 21);
             this.prefixComboBox.TabIndex = 14;
+            this.prefixComboBox.SelectedIndexChanged += new System.EventHandler(this.prefixComboBox_SelectedIndexChanged);
             // 
             // DOBdateTimePicker
             // 
             this.DOBdateTimePicker.CustomFormat = "MM-dd-yyyy";
             this.DOBdateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.DOBdateTimePicker.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.DOBdateTimePicker.Location = new System.Drawing.Point(117, 214);
             this.DOBdateTimePicker.Name = "DOBdateTimePicker";
             this.DOBdateTimePicker.Size = new System.Drawing.Size(100, 20);
@@ -236,6 +251,7 @@
             this.emailTxtBox.Name = "emailTxtBox";
             this.emailTxtBox.Size = new System.Drawing.Size(100, 20);
             this.emailTxtBox.TabIndex = 19;
+            this.emailTxtBox.Validating += new System.ComponentModel.CancelEventHandler(this.emailTxtBox_Validating);
             // 
             // designationTxtBox
             // 
@@ -243,14 +259,16 @@
             this.designationTxtBox.Name = "designationTxtBox";
             this.designationTxtBox.Size = new System.Drawing.Size(100, 20);
             this.designationTxtBox.TabIndex = 20;
+            this.designationTxtBox.Validating += new System.ComponentModel.CancelEventHandler(this.designationTxtBox_Validating);
             // 
             // descriptionTxtBox
             // 
             this.descriptionTxtBox.Location = new System.Drawing.Point(117, 415);
             this.descriptionTxtBox.Name = "descriptionTxtBox";
-            this.descriptionTxtBox.Size = new System.Drawing.Size(294, 96);
+            this.descriptionTxtBox.Size = new System.Drawing.Size(157, 121);
             this.descriptionTxtBox.TabIndex = 23;
             this.descriptionTxtBox.Text = "";
+            this.descriptionTxtBox.Validating += new System.ComponentModel.CancelEventHandler(this.descriptionTxtBox_Validating);
             // 
             // menuStrip1
             // 
@@ -308,7 +326,7 @@
             // 
             // browseImageBtn
             // 
-            this.browseImageBtn.Location = new System.Drawing.Point(283, 349);
+            this.browseImageBtn.Location = new System.Drawing.Point(292, 355);
             this.browseImageBtn.Name = "browseImageBtn";
             this.browseImageBtn.Size = new System.Drawing.Size(75, 23);
             this.browseImageBtn.TabIndex = 21;
@@ -318,7 +336,7 @@
             // 
             // submitTxt
             // 
-            this.submitTxt.Location = new System.Drawing.Point(165, 545);
+            this.submitTxt.Location = new System.Drawing.Point(165, 557);
             this.submitTxt.Name = "submitTxt";
             this.submitTxt.Size = new System.Drawing.Size(75, 23);
             this.submitTxt.TabIndex = 24;
@@ -328,22 +346,102 @@
             // 
             // cancelTxt
             // 
-            this.cancelTxt.Location = new System.Drawing.Point(309, 545);
+            this.cancelTxt.Location = new System.Drawing.Point(304, 557);
             this.cancelTxt.Name = "cancelTxt";
             this.cancelTxt.Size = new System.Drawing.Size(75, 23);
             this.cancelTxt.TabIndex = 25;
             this.cancelTxt.Text = "Cancel";
             this.cancelTxt.UseVisualStyleBackColor = true;
             // 
-            // upload
+            // pictureBox1
             // 
-            this.upload.Location = new System.Drawing.Point(437, 388);
-            this.upload.Name = "upload";
-            this.upload.Size = new System.Drawing.Size(75, 23);
-            this.upload.TabIndex = 26;
-            this.upload.Text = "upload";
-            this.upload.UseVisualStyleBackColor = true;
-            this.upload.Click += new System.EventHandler(this.upload_Click);
+            this.pictureBox1.Location = new System.Drawing.Point(388, 389);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 127);
+            this.pictureBox1.TabIndex = 26;
+            this.pictureBox1.TabStop = false;
+            // 
+            // errNameLabel
+            // 
+            this.errNameLabel.AutoSize = true;
+            this.errNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.errNameLabel.Location = new System.Drawing.Point(117, 95);
+            this.errNameLabel.Name = "errNameLabel";
+            this.errNameLabel.Size = new System.Drawing.Size(0, 13);
+            this.errNameLabel.TabIndex = 27;
+            // 
+            // errMNameLabel
+            // 
+            this.errMNameLabel.AutoSize = true;
+            this.errMNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.errMNameLabel.Location = new System.Drawing.Point(388, 95);
+            this.errMNameLabel.Name = "errMNameLabel";
+            this.errMNameLabel.Size = new System.Drawing.Size(0, 13);
+            this.errMNameLabel.TabIndex = 28;
+            // 
+            // errLNameLabel
+            // 
+            this.errLNameLabel.AutoSize = true;
+            this.errLNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.errLNameLabel.Location = new System.Drawing.Point(120, 174);
+            this.errLNameLabel.Name = "errLNameLabel";
+            this.errLNameLabel.Size = new System.Drawing.Size(0, 13);
+            this.errLNameLabel.TabIndex = 29;
+            // 
+            // errPrefixLabel
+            // 
+            this.errPrefixLabel.AutoSize = true;
+            this.errPrefixLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.errPrefixLabel.Location = new System.Drawing.Point(391, 174);
+            this.errPrefixLabel.Name = "errPrefixLabel";
+            this.errPrefixLabel.Size = new System.Drawing.Size(0, 13);
+            this.errPrefixLabel.TabIndex = 30;
+            // 
+            // errGenderLabel
+            // 
+            this.errGenderLabel.AutoSize = true;
+            this.errGenderLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.errGenderLabel.Location = new System.Drawing.Point(117, 315);
+            this.errGenderLabel.Name = "errGenderLabel";
+            this.errGenderLabel.Size = new System.Drawing.Size(0, 13);
+            this.errGenderLabel.TabIndex = 31;
+            // 
+            // errEmailLabel
+            // 
+            this.errEmailLabel.AutoSize = true;
+            this.errEmailLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.errEmailLabel.Location = new System.Drawing.Point(388, 313);
+            this.errEmailLabel.Name = "errEmailLabel";
+            this.errEmailLabel.Size = new System.Drawing.Size(0, 13);
+            this.errEmailLabel.TabIndex = 32;
+            // 
+            // errDestinationLabel
+            // 
+            this.errDestinationLabel.AutoSize = true;
+            this.errDestinationLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.errDestinationLabel.Location = new System.Drawing.Point(117, 384);
+            this.errDestinationLabel.Name = "errDestinationLabel";
+            this.errDestinationLabel.Size = new System.Drawing.Size(0, 13);
+            this.errDestinationLabel.TabIndex = 33;
+            // 
+            // errDescriptionLabel
+            // 
+            this.errDescriptionLabel.AutoSize = true;
+            this.errDescriptionLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.errDescriptionLabel.Location = new System.Drawing.Point(117, 539);
+            this.errDescriptionLabel.Name = "errDescriptionLabel";
+            this.errDescriptionLabel.Size = new System.Drawing.Size(0, 13);
+            this.errDescriptionLabel.TabIndex = 34;
+            // 
+            // uploadBtn
+            // 
+            this.uploadBtn.Location = new System.Drawing.Point(292, 399);
+            this.uploadBtn.Name = "uploadBtn";
+            this.uploadBtn.Size = new System.Drawing.Size(75, 23);
+            this.uploadBtn.TabIndex = 35;
+            this.uploadBtn.Text = "Upload";
+            this.uploadBtn.UseVisualStyleBackColor = true;
+            this.uploadBtn.Click += new System.EventHandler(this.uploadBtn_Click);
             // 
             // registrationForm
             // 
@@ -351,8 +449,17 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(563, 580);
-            this.Controls.Add(this.upload);
+            this.ClientSize = new System.Drawing.Size(563, 616);
+            this.Controls.Add(this.uploadBtn);
+            this.Controls.Add(this.errDescriptionLabel);
+            this.Controls.Add(this.errDestinationLabel);
+            this.Controls.Add(this.errEmailLabel);
+            this.Controls.Add(this.errGenderLabel);
+            this.Controls.Add(this.errPrefixLabel);
+            this.Controls.Add(this.errLNameLabel);
+            this.Controls.Add(this.errMNameLabel);
+            this.Controls.Add(this.errNameLabel);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.cancelTxt);
             this.Controls.Add(this.submitTxt);
             this.Controls.Add(this.browseImageBtn);
@@ -381,10 +488,10 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "registrationForm";
-            this.Text = "registrationForm";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -424,6 +531,15 @@
         private System.Windows.Forms.Button browseImageBtn;
         private System.Windows.Forms.Button submitTxt;
         private System.Windows.Forms.Button cancelTxt;
-        private System.Windows.Forms.Button upload;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label errNameLabel;
+        private System.Windows.Forms.Label errMNameLabel;
+        private System.Windows.Forms.Label errLNameLabel;
+        private System.Windows.Forms.Label errPrefixLabel;
+        private System.Windows.Forms.Label errGenderLabel;
+        private System.Windows.Forms.Label errEmailLabel;
+        private System.Windows.Forms.Label errDestinationLabel;
+        private System.Windows.Forms.Label errDescriptionLabel;
+        private System.Windows.Forms.Button uploadBtn;
     }
 }
