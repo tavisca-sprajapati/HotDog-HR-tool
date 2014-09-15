@@ -1,0 +1,10 @@
+c:\users\sprajapati\documents\visual studio 2012\Projects\EventController\EventController\bin\Debug\EventController.dll
+c:\users\sprajapati\documents\visual studio 2012\Projects\EventController\EventController\bin\Debug\EventController.pdb
+c:\users\sprajapati\documents\visual studio 2012\Projects\EventController\EventController\bin\Debug\MailHandlers.dll
+c:\users\sprajapati\documents\visual studio 2012\Projects\EventController\EventController\obj\Debug\EventController.dll
+c:\users\sprajapati\documents\visual studio 2012\Projects\EventController\EventController\obj\Debug\EventController.pdb
+C:\Users\sprajapati\Documents\Visual Studio 2012\Projects\EventController\EventController\bin\Debug\HRHelperToolStorageSelector.dll
+C:\Users\sprajapati\Documents\Visual Studio 2012\Projects\EventController\EventController\bin\Debug\HRToolHelper.EmployeeLibrary.dll
+C:\Users\sprajapati\Documents\Visual Studio 2012\Projects\EventController\EventController\bin\Debug\HRHelperToolExcelEngine.dll
+C:\Users\sprajapati\Documents\Visual Studio 2012\Projects\EventController\EventController\bin\Debug\HRHelperTool.Engine.Interface.dll
+C:\Users\sprajapati\Documents\Visual Studio 2012\Projects\EventController\EventController\obj\Debug\EventController.csprojResolveAssemblyReference.cache

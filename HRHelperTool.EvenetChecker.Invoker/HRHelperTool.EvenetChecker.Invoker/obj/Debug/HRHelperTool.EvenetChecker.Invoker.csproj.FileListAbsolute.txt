@@ -1,0 +1,11 @@
+c:\users\sprajapati\documents\visual studio 2012\Projects\HRHelperTool.EvenetChecker.Invoker\HRHelperTool.EvenetChecker.Invoker\bin\Debug\HRHelperTool.EvenetChecker.Invoker.exe.config
+c:\users\sprajapati\documents\visual studio 2012\Projects\HRHelperTool.EvenetChecker.Invoker\HRHelperTool.EvenetChecker.Invoker\bin\Debug\HRHelperTool.EvenetChecker.Invoker.exe
+c:\users\sprajapati\documents\visual studio 2012\Projects\HRHelperTool.EvenetChecker.Invoker\HRHelperTool.EvenetChecker.Invoker\bin\Debug\HRHelperTool.EvenetChecker.Invoker.pdb
+c:\users\sprajapati\documents\visual studio 2012\Projects\HRHelperTool.EvenetChecker.Invoker\HRHelperTool.EvenetChecker.Invoker\bin\Debug\EventController.dll
+c:\users\sprajapati\documents\visual studio 2012\Projects\HRHelperTool.EvenetChecker.Invoker\HRHelperTool.EvenetChecker.Invoker\bin\Debug\MailHandlers.dll
+c:\users\sprajapati\documents\visual studio 2012\Projects\HRHelperTool.EvenetChecker.Invoker\HRHelperTool.EvenetChecker.Invoker\bin\Debug\EventController.pdb
+c:\users\sprajapati\documents\visual studio 2012\Projects\HRHelperTool.EvenetChecker.Invoker\HRHelperTool.EvenetChecker.Invoker\obj\Debug\HRHelperTool.EvenetChecker.Invoker.exe
+c:\users\sprajapati\documents\visual studio 2012\Projects\HRHelperTool.EvenetChecker.Invoker\HRHelperTool.EvenetChecker.Invoker\obj\Debug\HRHelperTool.EvenetChecker.Invoker.pdb
+C:\Users\sprajapati\Documents\Visual Studio 2012\Projects\HRHelperTool.EvenetChecker.Invoker\HRHelperTool.EvenetChecker.Invoker\bin\Debug\HRToolHelper.EmployeeLibrary.dll
+C:\Users\sprajapati\Documents\Visual Studio 2012\Projects\HRHelperTool.EvenetChecker.Invoker\HRHelperTool.EvenetChecker.Invoker\bin\Debug\HRHelperToolStorageSelector.dll
+C:\Users\sprajapati\Documents\Visual Studio 2012\Projects\HRHelperTool.EvenetChecker.Invoker\HRHelperTool.EvenetChecker.Invoker\obj\Debug\HRHelperTool.EvenetChecker.Invoker.csprojResolveAssemblyReference.cache

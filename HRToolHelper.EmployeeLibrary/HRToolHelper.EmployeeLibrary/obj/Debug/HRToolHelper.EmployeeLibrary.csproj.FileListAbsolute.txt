@@ -1,0 +1,4 @@
+c:\users\sprajapati\documents\visual studio 2012\Projects\HRToolHelper.EmployeeLibrary\HRToolHelper.EmployeeLibrary\bin\Debug\HRToolHelper.EmployeeLibrary.dll
+c:\users\sprajapati\documents\visual studio 2012\Projects\HRToolHelper.EmployeeLibrary\HRToolHelper.EmployeeLibrary\bin\Debug\HRToolHelper.EmployeeLibrary.pdb
+c:\users\sprajapati\documents\visual studio 2012\Projects\HRToolHelper.EmployeeLibrary\HRToolHelper.EmployeeLibrary\obj\Debug\HRToolHelper.EmployeeLibrary.dll
+c:\users\sprajapati\documents\visual studio 2012\Projects\HRToolHelper.EmployeeLibrary\HRToolHelper.EmployeeLibrary\obj\Debug\HRToolHelper.EmployeeLibrary.pdb

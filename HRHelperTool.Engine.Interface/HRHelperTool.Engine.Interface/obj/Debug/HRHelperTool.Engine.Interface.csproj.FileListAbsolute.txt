@@ -1,0 +1,7 @@
+c:\users\sprajapati\documents\visual studio 2012\Projects\HRHelperTool.Engine.Interface\HRHelperTool.Engine.Interface\obj\Debug\HRHelperTool.Engine.Interface.csprojResolveAssemblyReference.cache
+c:\users\sprajapati\documents\visual studio 2012\Projects\HRHelperTool.Engine.Interface\HRHelperTool.Engine.Interface\bin\Debug\HRHelperTool.Engine.Interface.dll
+c:\users\sprajapati\documents\visual studio 2012\Projects\HRHelperTool.Engine.Interface\HRHelperTool.Engine.Interface\bin\Debug\HRHelperTool.Engine.Interface.pdb
+c:\users\sprajapati\documents\visual studio 2012\Projects\HRHelperTool.Engine.Interface\HRHelperTool.Engine.Interface\bin\Debug\HRToolHelper.EmployeeLibrary.dll
+c:\users\sprajapati\documents\visual studio 2012\Projects\HRHelperTool.Engine.Interface\HRHelperTool.Engine.Interface\bin\Debug\HRToolHelper.EmployeeLibrary.pdb
+c:\users\sprajapati\documents\visual studio 2012\Projects\HRHelperTool.Engine.Interface\HRHelperTool.Engine.Interface\obj\Debug\HRHelperTool.Engine.Interface.dll
+c:\users\sprajapati\documents\visual studio 2012\Projects\HRHelperTool.Engine.Interface\HRHelperTool.Engine.Interface\obj\Debug\HRHelperTool.Engine.Interface.pdb
