@@ -1,0 +1,5 @@
+D:\final hr tool\HRUserInterface\ExceptionHandler\bin\Debug\ExceptionHandler.dll
+D:\final hr tool\HRUserInterface\ExceptionHandler\bin\Debug\ExceptionHandler.pdb
+D:\final hr tool\HRUserInterface\ExceptionHandler\obj\Debug\ExceptionHandler.dll
+D:\final hr tool\HRUserInterface\ExceptionHandler\obj\Debug\ExceptionHandler.pdb
+D:\final hr tool\HRUserInterface\ExceptionHandler\obj\Debug\ExceptionHandler.csprojResolveAssemblyReference.cache

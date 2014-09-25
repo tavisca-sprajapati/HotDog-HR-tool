@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRUserInterface", "HRUserInterface\HRUserInterface.csproj", "{06F6769F-6E29-45CA-BB02-1840B38F0182}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Host", "0.Host", "{B0BC2111-2B36-4A44-9478-DE9C122500DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Businesslogic", "1.Businesslogic", "{312182FD-38E3-410A-9898-9589CF4A6C99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.DataAccess", "2.DataAccess", "{81AF5BA2-1C42-4E10-AE69-716F07CFF0BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventNotificationTool", "EventNotificationTool\EventNotificationTool.csproj", "{34191EBD-1422-4731-852B-7CD188536458}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRHelperTool.Engine.Interface", "HRHelperTool.Engine.Interface\HRHelperTool.Engine.Interface.csproj", "{D6F9617B-A756-4BAD-9DE3-20606D64CEB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRToolHelper.EmployeeLibrary", "HRToolHelper.EmployeeLibrary\HRToolHelper.EmployeeLibrary.csproj", "{28D236C9-80B0-4AF6-B1BF-A9E0996B0DD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRHelperToolExcelEngine", "HRHelperToolExcelEngine\HRHelperToolExcelEngine.csproj", "{1C2AFCC0-20D8-4349-B9E1-05E6907CF894}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRHelperToolStorageSelector", "HRHelperToolStorageSelector\HRHelperToolStorageSelector.csproj", "{03C40BD8-3112-4BD0-863D-13B961A36DF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailHandlers", "MailHandlers\MailHandlers.csproj", "{271B7B52-6BBA-4FD9-89C9-F25FFF38CB93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandler", "ExceptionHandler\ExceptionHandler.csproj", "{2D9138ED-994C-44C3-A3DB-366149779B93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventTemplates", "EventTemplates\EventTemplates.csproj", "{21BE8F15-07CB-470D-9AA8-87A16ED27CDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRHelperTool.EvenetChecker.Invoker", "HRHelperTool.EvenetChecker.Invoker\HRHelperTool.EvenetChecker.Invoker.csproj", "{31237777-BBEC-4680-A008-ECB538CE8B8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventController", "EventController\EventController.csproj", "{45569E93-DB80-42BC-88F5-5EB84D883233}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRHelperToolSQLDataAccessEngine", "HRHelperToolSQLDataAccessEngine\HRHelperToolSQLDataAccessEngine.csproj", "{E3B9C557-D156-4A05-B8B3-E2ABE276B687}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06F6769F-6E29-45CA-BB02-1840B38F0182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F6769F-6E29-45CA-BB02-1840B38F0182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F6769F-6E29-45CA-BB02-1840B38F0182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F6769F-6E29-45CA-BB02-1840B38F0182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34191EBD-1422-4731-852B-7CD188536458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34191EBD-1422-4731-852B-7CD188536458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34191EBD-1422-4731-852B-7CD188536458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34191EBD-1422-4731-852B-7CD188536458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F9617B-A756-4BAD-9DE3-20606D64CEB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F9617B-A756-4BAD-9DE3-20606D64CEB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F9617B-A756-4BAD-9DE3-20606D64CEB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F9617B-A756-4BAD-9DE3-20606D64CEB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28D236C9-80B0-4AF6-B1BF-A9E0996B0DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D236C9-80B0-4AF6-B1BF-A9E0996B0DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D236C9-80B0-4AF6-B1BF-A9E0996B0DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D236C9-80B0-4AF6-B1BF-A9E0996B0DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C2AFCC0-20D8-4349-B9E1-05E6907CF894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C2AFCC0-20D8-4349-B9E1-05E6907CF894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C2AFCC0-20D8-4349-B9E1-05E6907CF894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C2AFCC0-20D8-4349-B9E1-05E6907CF894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03C40BD8-3112-4BD0-863D-13B961A36DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C40BD8-3112-4BD0-863D-13B961A36DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C40BD8-3112-4BD0-863D-13B961A36DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C40BD8-3112-4BD0-863D-13B961A36DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{271B7B52-6BBA-4FD9-89C9-F25FFF38CB93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{271B7B52-6BBA-4FD9-89C9-F25FFF38CB93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{271B7B52-6BBA-4FD9-89C9-F25FFF38CB93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{271B7B52-6BBA-4FD9-89C9-F25FFF38CB93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D9138ED-994C-44C3-A3DB-366149779B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D9138ED-994C-44C3-A3DB-366149779B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D9138ED-994C-44C3-A3DB-366149779B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D9138ED-994C-44C3-A3DB-366149779B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21BE8F15-07CB-470D-9AA8-87A16ED27CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21BE8F15-07CB-470D-9AA8-87A16ED27CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21BE8F15-07CB-470D-9AA8-87A16ED27CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BE8F15-07CB-470D-9AA8-87A16ED27CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31237777-BBEC-4680-A008-ECB538CE8B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31237777-BBEC-4680-A008-ECB538CE8B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31237777-BBEC-4680-A008-ECB538CE8B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31237777-BBEC-4680-A008-ECB538CE8B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45569E93-DB80-42BC-88F5-5EB84D883233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45569E93-DB80-42BC-88F5-5EB84D883233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45569E93-DB80-42BC-88F5-5EB84D883233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45569E93-DB80-42BC-88F5-5EB84D883233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3B9C557-D156-4A05-B8B3-E2ABE276B687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3B9C557-D156-4A05-B8B3-E2ABE276B687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3B9C557-D156-4A05-B8B3-E2ABE276B687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3B9C557-D156-4A05-B8B3-E2ABE276B687}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06F6769F-6E29-45CA-BB02-1840B38F0182} = {B0BC2111-2B36-4A44-9478-DE9C122500DE}
+	EndGlobalSection
+EndGlobal

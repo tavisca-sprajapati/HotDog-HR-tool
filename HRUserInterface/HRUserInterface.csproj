@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{06F6769F-6E29-45CA-BB02-1840B38F0182}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HRUserInterface</RootNamespace>
+    <AssemblyName>HRUserInterface</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="loginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginForm.Designer.cs">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="recordOperationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="recordOperationForm.Designer.cs">
+      <DependentUpon>recordOperationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="registrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registrationForm.Designer.cs">
+      <DependentUpon>registrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updateRecordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateRecordForm.Designer.cs">
+      <DependentUpon>updateRecordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="welcomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="welcomeForm.Designer.cs">
+      <DependentUpon>welcomeForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="loginForm.resx">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="recordOperationForm.resx">
+      <DependentUpon>recordOperationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registrationForm.resx">
+      <DependentUpon>registrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateRecordForm.resx">
+      <DependentUpon>updateRecordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="welcomeForm.resx">
+      <DependentUpon>welcomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AWESOME_FACE!!!.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tavisca_logo_180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EventController\EventController.csproj">
+      <Project>{45569e93-db80-42bc-88f5-5eb84d883233}</Project>
+      <Name>EventController</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EventNotificationTool\EventNotificationTool.csproj">
+      <Project>{34191ebd-1422-4731-852b-7cd188536458}</Project>
+      <Name>EventNotificationTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EventTemplates\EventTemplates.csproj">
+      <Project>{21be8f15-07cb-470d-9aa8-87a16ed27cdd}</Project>
+      <Name>EventTemplates</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExceptionHandler\ExceptionHandler.csproj">
+      <Project>{2d9138ed-994c-44c3-a3db-366149779b93}</Project>
+      <Name>ExceptionHandler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HRHelperTool.Engine.Interface\HRHelperTool.Engine.Interface.csproj">
+      <Project>{d6f9617b-a756-4bad-9de3-20606d64ceb7}</Project>
+      <Name>HRHelperTool.Engine.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HRHelperToolExcelEngine\HRHelperToolExcelEngine.csproj">
+      <Project>{1c2afcc0-20d8-4349-b9e1-05e6907cf894}</Project>
+      <Name>HRHelperToolExcelEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HRHelperToolSQLDataAccessEngine\HRHelperToolSQLDataAccessEngine.csproj">
+      <Project>{e3b9c557-d156-4a05-b8b3-e2abe276b687}</Project>
+      <Name>HRHelperToolSQLDataAccessEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HRHelperToolStorageSelector\HRHelperToolStorageSelector.csproj">
+      <Project>{03c40bd8-3112-4bd0-863d-13b961a36df2}</Project>
+      <Name>HRHelperToolStorageSelector</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HRToolHelper.EmployeeLibrary\HRToolHelper.EmployeeLibrary.csproj">
+      <Project>{28d236c9-80b0-4af6-b1bf-a9e0996b0dd4}</Project>
+      <Name>HRToolHelper.EmployeeLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MailHandlers\MailHandlers.csproj">
+      <Project>{271b7b52-6bba-4fd9-89c9-f25fff38cb93}</Project>
+      <Name>MailHandlers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

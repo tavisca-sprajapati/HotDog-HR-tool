@@ -1,0 +1,7 @@
+D:\final hr tool\HRUserInterface\MailHandlers\bin\Debug\MailHandlers.dll
+D:\final hr tool\HRUserInterface\MailHandlers\bin\Debug\MailHandlers.pdb
+D:\final hr tool\HRUserInterface\MailHandlers\bin\Debug\ExceptionHandler.dll
+D:\final hr tool\HRUserInterface\MailHandlers\bin\Debug\ExceptionHandler.pdb
+D:\final hr tool\HRUserInterface\MailHandlers\obj\Debug\MailHandlers.csprojResolveAssemblyReference.cache
+D:\final hr tool\HRUserInterface\MailHandlers\obj\Debug\MailHandlers.dll
+D:\final hr tool\HRUserInterface\MailHandlers\obj\Debug\MailHandlers.pdb

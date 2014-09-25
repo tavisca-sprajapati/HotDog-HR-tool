@@ -1,4 +1,0 @@
-c:\users\sprajapati\documents\visual studio 2012\Projects\MailHandlers\MailHandlers\bin\Debug\MailHandlers.dll
-c:\users\sprajapati\documents\visual studio 2012\Projects\MailHandlers\MailHandlers\bin\Debug\MailHandlers.pdb
-c:\users\sprajapati\documents\visual studio 2012\Projects\MailHandlers\MailHandlers\obj\Debug\MailHandlers.dll
-c:\users\sprajapati\documents\visual studio 2012\Projects\MailHandlers\MailHandlers\obj\Debug\MailHandlers.pdb

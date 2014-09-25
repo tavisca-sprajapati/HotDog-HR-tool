@@ -1,0 +1,15 @@
+D:\final hr tool\HRUserInterface\HRHelperToolExcelEngine\obj\Debug\HRHelperToolExcelEngine.csprojResolveAssemblyReference.cache
+D:\final hr tool\HRUserInterface\HRHelperToolExcelEngine\bin\Debug\HRHelperToolExcelEngine.dll
+D:\final hr tool\HRUserInterface\HRHelperToolExcelEngine\bin\Debug\HRHelperToolExcelEngine.pdb
+D:\final hr tool\HRUserInterface\HRHelperToolExcelEngine\bin\Debug\EventTemplates.dll
+D:\final hr tool\HRUserInterface\HRHelperToolExcelEngine\bin\Debug\ExceptionHandler.dll
+D:\final hr tool\HRUserInterface\HRHelperToolExcelEngine\bin\Debug\HRHelperTool.Engine.Interface.dll
+D:\final hr tool\HRUserInterface\HRHelperToolExcelEngine\bin\Debug\HRToolHelper.EmployeeLibrary.dll
+D:\final hr tool\HRUserInterface\HRHelperToolExcelEngine\bin\Debug\MailHandlers.dll
+D:\final hr tool\HRUserInterface\HRHelperToolExcelEngine\bin\Debug\EventTemplates.pdb
+D:\final hr tool\HRUserInterface\HRHelperToolExcelEngine\bin\Debug\ExceptionHandler.pdb
+D:\final hr tool\HRUserInterface\HRHelperToolExcelEngine\bin\Debug\HRHelperTool.Engine.Interface.pdb
+D:\final hr tool\HRUserInterface\HRHelperToolExcelEngine\bin\Debug\HRToolHelper.EmployeeLibrary.pdb
+D:\final hr tool\HRUserInterface\HRHelperToolExcelEngine\bin\Debug\MailHandlers.pdb
+D:\final hr tool\HRUserInterface\HRHelperToolExcelEngine\obj\Debug\HRHelperToolExcelEngine.dll
+D:\final hr tool\HRUserInterface\HRHelperToolExcelEngine\obj\Debug\HRHelperToolExcelEngine.pdb

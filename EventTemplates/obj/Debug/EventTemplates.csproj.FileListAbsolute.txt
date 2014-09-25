@@ -1,0 +1,9 @@
+D:\final hr tool\HRUserInterface\EventTemplates\bin\Debug\EventTemplates.dll
+D:\final hr tool\HRUserInterface\EventTemplates\bin\Debug\EventTemplates.pdb
+D:\final hr tool\HRUserInterface\EventTemplates\bin\Debug\HRHelperTool.Engine.Interface.dll
+D:\final hr tool\HRUserInterface\EventTemplates\bin\Debug\HRToolHelper.EmployeeLibrary.dll
+D:\final hr tool\HRUserInterface\EventTemplates\bin\Debug\HRHelperTool.Engine.Interface.pdb
+D:\final hr tool\HRUserInterface\EventTemplates\bin\Debug\HRToolHelper.EmployeeLibrary.pdb
+D:\final hr tool\HRUserInterface\EventTemplates\obj\Debug\EventTemplates.csprojResolveAssemblyReference.cache
+D:\final hr tool\HRUserInterface\EventTemplates\obj\Debug\EventTemplates.dll
+D:\final hr tool\HRUserInterface\EventTemplates\obj\Debug\EventTemplates.pdb

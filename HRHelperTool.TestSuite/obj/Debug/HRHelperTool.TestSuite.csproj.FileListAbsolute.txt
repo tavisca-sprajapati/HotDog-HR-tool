@@ -1,0 +1,4 @@
+D:\GITHUB\HotDog-HR-tool\HRUserInterface\HRHelperTool.TestSuite\bin\Debug\HRHelperTool.TestSuite.dll
+D:\GITHUB\HotDog-HR-tool\HRUserInterface\HRHelperTool.TestSuite\bin\Debug\HRHelperTool.TestSuite.pdb
+D:\GITHUB\HotDog-HR-tool\HRUserInterface\HRHelperTool.TestSuite\obj\Debug\HRHelperTool.TestSuite.dll
+D:\GITHUB\HotDog-HR-tool\HRUserInterface\HRHelperTool.TestSuite\obj\Debug\HRHelperTool.TestSuite.pdb

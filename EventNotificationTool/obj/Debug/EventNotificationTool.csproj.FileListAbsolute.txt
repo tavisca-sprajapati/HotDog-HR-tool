@@ -1,0 +1,38 @@
+D:\GITHUB\HotDog-HR-tool\HRUserInterface\EventNotificationTool\obj\Debug\EventNotificationTool.csprojResolveAssemblyReference.cache
+D:\GITHUB\HotDog-HR-tool\HRUserInterface\EventNotificationTool\bin\Debug\EventNotificationTool.dll
+D:\GITHUB\HotDog-HR-tool\HRUserInterface\EventNotificationTool\bin\Debug\EventNotificationTool.pdb
+D:\GITHUB\HotDog-HR-tool\HRUserInterface\EventNotificationTool\bin\Debug\HRHelperTool.Engine.Interface.dll
+D:\GITHUB\HotDog-HR-tool\HRUserInterface\EventNotificationTool\bin\Debug\HRHelperToolExcelEngine.dll
+D:\GITHUB\HotDog-HR-tool\HRUserInterface\EventNotificationTool\bin\Debug\HRHelperToolStorageSelector.dll
+D:\GITHUB\HotDog-HR-tool\HRUserInterface\EventNotificationTool\bin\Debug\HRToolHelper.EmployeeLibrary.dll
+D:\GITHUB\HotDog-HR-tool\HRUserInterface\EventNotificationTool\bin\Debug\ExceptionHandler.dll
+D:\GITHUB\HotDog-HR-tool\HRUserInterface\EventNotificationTool\bin\Debug\EventTemplates.dll
+D:\GITHUB\HotDog-HR-tool\HRUserInterface\EventNotificationTool\bin\Debug\MailHandlers.dll
+D:\GITHUB\HotDog-HR-tool\HRUserInterface\EventNotificationTool\bin\Debug\HRHelperTool.Engine.Interface.pdb
+D:\GITHUB\HotDog-HR-tool\HRUserInterface\EventNotificationTool\bin\Debug\HRHelperToolExcelEngine.pdb
+D:\GITHUB\HotDog-HR-tool\HRUserInterface\EventNotificationTool\bin\Debug\HRHelperToolStorageSelector.pdb
+D:\GITHUB\HotDog-HR-tool\HRUserInterface\EventNotificationTool\bin\Debug\HRToolHelper.EmployeeLibrary.pdb
+D:\GITHUB\HotDog-HR-tool\HRUserInterface\EventNotificationTool\bin\Debug\ExceptionHandler.pdb
+D:\GITHUB\HotDog-HR-tool\HRUserInterface\EventNotificationTool\bin\Debug\EventTemplates.pdb
+D:\GITHUB\HotDog-HR-tool\HRUserInterface\EventNotificationTool\bin\Debug\MailHandlers.pdb
+D:\GITHUB\HotDog-HR-tool\HRUserInterface\EventNotificationTool\obj\Debug\EventNotificationTool.dll
+D:\GITHUB\HotDog-HR-tool\HRUserInterface\EventNotificationTool\obj\Debug\EventNotificationTool.pdb
+D:\final hr tool\HRUserInterface\EventNotificationTool\obj\Debug\EventNotificationTool.csprojResolveAssemblyReference.cache
+D:\final hr tool\HRUserInterface\EventNotificationTool\obj\Debug\EventNotificationTool.dll
+D:\final hr tool\HRUserInterface\EventNotificationTool\obj\Debug\EventNotificationTool.pdb
+D:\final hr tool\HRUserInterface\EventNotificationTool\bin\Debug\EventNotificationTool.dll
+D:\final hr tool\HRUserInterface\EventNotificationTool\bin\Debug\EventNotificationTool.pdb
+D:\final hr tool\HRUserInterface\EventNotificationTool\bin\Debug\HRHelperTool.Engine.Interface.dll
+D:\final hr tool\HRUserInterface\EventNotificationTool\bin\Debug\HRHelperToolExcelEngine.dll
+D:\final hr tool\HRUserInterface\EventNotificationTool\bin\Debug\HRHelperToolStorageSelector.dll
+D:\final hr tool\HRUserInterface\EventNotificationTool\bin\Debug\HRToolHelper.EmployeeLibrary.dll
+D:\final hr tool\HRUserInterface\EventNotificationTool\bin\Debug\ExceptionHandler.dll
+D:\final hr tool\HRUserInterface\EventNotificationTool\bin\Debug\EventTemplates.dll
+D:\final hr tool\HRUserInterface\EventNotificationTool\bin\Debug\MailHandlers.dll
+D:\final hr tool\HRUserInterface\EventNotificationTool\bin\Debug\HRHelperTool.Engine.Interface.pdb
+D:\final hr tool\HRUserInterface\EventNotificationTool\bin\Debug\HRHelperToolExcelEngine.pdb
+D:\final hr tool\HRUserInterface\EventNotificationTool\bin\Debug\HRHelperToolStorageSelector.pdb
+D:\final hr tool\HRUserInterface\EventNotificationTool\bin\Debug\HRToolHelper.EmployeeLibrary.pdb
+D:\final hr tool\HRUserInterface\EventNotificationTool\bin\Debug\ExceptionHandler.pdb
+D:\final hr tool\HRUserInterface\EventNotificationTool\bin\Debug\EventTemplates.pdb
+D:\final hr tool\HRUserInterface\EventNotificationTool\bin\Debug\MailHandlers.pdb

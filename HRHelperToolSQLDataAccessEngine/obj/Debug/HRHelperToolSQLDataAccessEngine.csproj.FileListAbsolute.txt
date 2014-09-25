@@ -1,0 +1,15 @@
+D:\final hr tool\HRUserInterface\HRHelperToolSQLDataAccessEngine\bin\Debug\HRHelperToolSQLDataAccessEngine.dll
+D:\final hr tool\HRUserInterface\HRHelperToolSQLDataAccessEngine\bin\Debug\HRHelperToolSQLDataAccessEngine.pdb
+D:\final hr tool\HRUserInterface\HRHelperToolSQLDataAccessEngine\bin\Debug\EventTemplates.dll
+D:\final hr tool\HRUserInterface\HRHelperToolSQLDataAccessEngine\bin\Debug\ExceptionHandler.dll
+D:\final hr tool\HRUserInterface\HRHelperToolSQLDataAccessEngine\bin\Debug\HRHelperTool.Engine.Interface.dll
+D:\final hr tool\HRUserInterface\HRHelperToolSQLDataAccessEngine\bin\Debug\HRToolHelper.EmployeeLibrary.dll
+D:\final hr tool\HRUserInterface\HRHelperToolSQLDataAccessEngine\bin\Debug\MailHandlers.dll
+D:\final hr tool\HRUserInterface\HRHelperToolSQLDataAccessEngine\bin\Debug\EventTemplates.pdb
+D:\final hr tool\HRUserInterface\HRHelperToolSQLDataAccessEngine\bin\Debug\ExceptionHandler.pdb
+D:\final hr tool\HRUserInterface\HRHelperToolSQLDataAccessEngine\bin\Debug\HRHelperTool.Engine.Interface.pdb
+D:\final hr tool\HRUserInterface\HRHelperToolSQLDataAccessEngine\bin\Debug\HRToolHelper.EmployeeLibrary.pdb
+D:\final hr tool\HRUserInterface\HRHelperToolSQLDataAccessEngine\bin\Debug\MailHandlers.pdb
+D:\final hr tool\HRUserInterface\HRHelperToolSQLDataAccessEngine\obj\Debug\HRHelperToolSQLDataAccessEngine.csprojResolveAssemblyReference.cache
+D:\final hr tool\HRUserInterface\HRHelperToolSQLDataAccessEngine\obj\Debug\HRHelperToolSQLDataAccessEngine.dll
+D:\final hr tool\HRUserInterface\HRHelperToolSQLDataAccessEngine\obj\Debug\HRHelperToolSQLDataAccessEngine.pdb

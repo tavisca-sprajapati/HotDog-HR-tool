@@ -1,0 +1,5 @@
+D:\final hr tool\HRUserInterface\HRToolHelper.EmployeeLibrary\bin\Debug\HRToolHelper.EmployeeLibrary.dll
+D:\final hr tool\HRUserInterface\HRToolHelper.EmployeeLibrary\bin\Debug\HRToolHelper.EmployeeLibrary.pdb
+D:\final hr tool\HRUserInterface\HRToolHelper.EmployeeLibrary\obj\Debug\HRToolHelper.EmployeeLibrary.dll
+D:\final hr tool\HRUserInterface\HRToolHelper.EmployeeLibrary\obj\Debug\HRToolHelper.EmployeeLibrary.pdb
+D:\final hr tool\HRUserInterface\HRToolHelper.EmployeeLibrary\obj\Debug\HRToolHelper.EmployeeLibrary.csprojResolveAssemblyReference.cache
